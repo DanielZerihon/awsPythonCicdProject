@@ -24,4 +24,4 @@ phases:
       - docker push "$DOCKER_REGISTRY_URL"/$DOCKER_REGISTRY_USERNAME/python-first-build-code:latest
   post_build:
     commands:
-      - echo "build finish"
+      - echo "build finish ..."
