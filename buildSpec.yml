@@ -12,10 +12,9 @@ phases:
       python: 3.11
   pre_build:
     commands:
-      - pip install -r day-14/simple-python-app/requirements.txt
+      - pip install -r ./requirements.txt
   build:
     commands:
-      - cd  day-14/simple-python-app
       - echo "building docker image" 
       - echo "$DOCKER_REGISTRY_PASSWORD" 
       - echo "$DOCKER_REGISTRY_USERNAME" 
@@ -24,4 +23,4 @@ phases:
       - docker push "$DOCKER_REGISTRY_URL"/$DOCKER_REGISTRY_USERNAME/python-first-build-code:latest
   post_build:
     commands:
-      - echo "build finish ..."
+      - echo "build finish"
