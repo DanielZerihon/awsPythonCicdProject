@@ -24,3 +24,7 @@ phases:
   post_build:
     commands:
       - echo "build finish"
+artifacts:
+  files:
+    - '**/*'
+  base-directory: ../awsPythonCicdProject
