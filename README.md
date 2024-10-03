@@ -3,7 +3,8 @@
 This repository contains a Python Flask web application with a CI/CD pipeline setup using AWS services such as: CodePipeline, CodeBuild and codeDeploy. 
 The project is designed to demonstrate the automation of building and deploying a containerized Python application to AWS.
 
-![image](https://github.com/user-attachments/assets/33dffefd-8bcf-485a-8c5c-9e9241a46fe4)
+![image](https://github.com/user-attachments/assets/93cc8b96-85ea-4894-8ec0-c9be204adfbc)
+
 
 
 
